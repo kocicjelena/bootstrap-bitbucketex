@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="css/favicon.ico">
+
+    <title>Merchant Application Form</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
+	<link href="css/carousel.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	 <link href="css/offcanvas.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+          
+	  
+    <div class="container">
+       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+		 <div class="container pastel">
+            <div class="carousel-caption">
+             <div class="inner cover">
+            <h1 class="cover-heading">Please Sign in</h1>
+            <p class="lead"></p>
+            <p class="lead"> <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signin"  placeholder="sign in"><h1>Sign in</h1></button>
+		   </p>
+		  </div>
+            </div>
+          </div>
+          <div> 
+		   <hr>
+		  </div>
+	  <div class="modal fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel"> <h1>Please sign in</h1></h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-signin" role="form">
+       
+        <input type="text" class="form-control" placeholder="Email address" required autofocus>
+        <input type="password" class="form-control" placeholder="Password" required>
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+        <div class="item">
+		  
+          <div class="container pastel">
+            <div class="carousel-caption">
+             <div class="inner cover">
+            <h1 class="cover-heading">Can we help?</h1>
+          <p class="lead"> <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#help"  placeholder="can we help"><h1>send message</h1></button>
+		   </p>
+		  </div>
+            </div>
+          </div>
+		   <div class="modal fade" id="help" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel"> <h1><p>Please provide your contact details</p></h1></h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-signin" role="form">
+       
+        <input type="text" class="form-control" placeholder="Email address" required autofocus>
+        <input type="text" class="form-control" placeholder="Name" required>
+        <input type="text" class="form-control" placeholder="Message" required>
+		<hr>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">send message</button>
+      </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+          <div class="container pastel">
+            <div class="carousel-caption">
+              <h1>Please Sign up</h1>
+              <p class="lead"> <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signup"  placeholder="sign in"><h1>Sign up today</h1></button>
+		   </p> </div>
+          </div>
+		  <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content justpastel">
+      <div class="modal-header">
+	  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">   
+<div class="nav navbar-nav pull-right">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="badge pull-left">2</span>INBOX <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+		<li><a href="#">settings</a></li>
+		<li class="dropdown">
+          <a href="#profile" class="dropdown-toggle" data-toggle="dropdown">profile <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">log out</a></li>
+          </ul>
+        </li>
+      </ul></div>
+      </div>
+    </div>
+	</div>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel"> <h1>FORM</h1></h4>
+		<ul class="nav nav-tabs" id="myTab">
+  <li class="active"><a href="#Company">Company</a></li>
+  <li><a href="#Director">Director</a></li>
+  <li><a href="#Ownership">Ownership</a></li>
+  <li><a href="#Website">Website</a></li>
+        <li><a href="#Business"><i class="icon-chevron-right"></i>BM</a></li>
+          <li><a href="#Bank"><i class="icon-chevron-right"></i>Bank Account</a></li>
+</ul>
+      </div>
+      <div class="modal-body">
+        <div class="tab-content">
+   <form class="navbar-form"> <div class="tab-pane active" id="Company">
+   <div class="form-group"><div class="page-header"><h2>Company information</h2></div>
+   <p style="text-align: left;">Why do we ask you about this?</p>
+             <p style="text-align: left;">We need to know exactly who we are dealing with.</p>
+			 <p>Where is your company registered?</p>
+     <div class="row"><div class=".col-xs-12 .col-sm-6 .col-lg-8">
+			  <div class="input-group">
+			 <div class="row-fluid"> 
+				<select tabindex="-1" class="selectpicker span12">
+    <option>Denmark</option>
+    <option>Ireland</option>
+    <option>-</option>
+  </select></div>
+  <input type="text" class="form-control" placeholder="Company registration number">
+  <input type="text" class="form-control" placeholder="Company name"> 
+  <input type="text" class="form-control" placeholder="Street address"> 
+  <input type="text" class="form-control" placeholder="Zipcode">
+  <input type="text" class="form-control" placeholder="City">
+                </div></div></div></div></div>
+  <div class="tab-pane" id="Director">
+  <div class="form-group" style="text-align: left;">
+<div class="page-header"><h2>Director/CEO</h2></div>
+<p>Why do we ask you about this?</p>
+    <p>EU anti-money laundering regulation requires us to identify and verify the top management of the companies we are involved with.</p>
+ <div class="row"><div class=".col-xs-12 .col-sm-6 .col-lg-8">
+	<div tabindex="-1" class="input-group">
+			 <div tabindex="-1" class="row-fluid">
+				<select tabindex="-1" class="selectpicker span12">
+    <option>Select salutation</option>
+    <option>Mr.</option>
+    <option>Mrs.</option>
+  </select>
+<input tabindex="-1" type="text" class="form-control" placeholder="Full name">
+<input tabindex="-1" type="text" class="form-control" placeholder="Social security number">
+<input tabindex="-1" type="text" class="form-control" placeholder="Street address">
+<input type="text" class="form-control" placeholder="Zipcode">
+  <input type="text" class="form-control" placeholder="City">
+   <div class="row-fluid">
+  	<select tabindex="-1" class="selectpicker span12">
+    <option>Select country</option>
+    <option>Denmark</option>
+    <option>Portugal</option>
+  </select></div>
+<script type="text/javascript">  
+	$(document).ready(function () {  
+	$('input[type=file]').bootstrapFileInput();
+$('.file-inputs').bootstrapFileInput();
+        });  
+   </script>
+    <li class="file-inputs" id="profile"> 
+ <p>Passport, drivers license or similar (with picture)</p>   
+					<!-- Change the wording using a title tag -->
+<input type="file" title="Search for a file to add"> 
+<p>We are requried by EU law to ask for this. </p><p>Please upload a passport, drivers license or other official document with a picture</p>
+                    </li> 
+					<li class="file-inputs" id="profile">  
+					<!-- Change the wording using a title tag -->
+					<p>Address legitimation: </p>
+<input type="file" title="Search for a file to add"> 
+<p>We are requried by EU law to ask for this. </p><p>Please upload an offical document, utility bill (i.e. gas or electrical bill)
+</p>
+                    </li> 
+
+	</div></div></div></div></div></div>
+	
+  <div class="tab-pane" id="Ownership">
+    <div class="form-group" style="text-align: left;">
+       <div class="page-header">
+            <h1>Company Ownership</h1>
+          </div> <p>Why do we ask you about this?</p>
+                      <div class="row">
+			
+		 <div class=".col-xs-12 .col-sm-6 .col-lg-8">
+		 <p>We are requried by EU law to get information about every individual who ultimatily (perhaps via a holding company) owns or controls more than 25% of the company,
+	  and we need to be able to eaxctly identify these persons.
+		</p>
+    <script type="text/javascript">  
+        $(document).ready(function () {  
+           $('.buttonset-rd').bsFormButtonset('attach'); 
+        });  
+   </script>
+	 <script type="text/javascript">  
+	 $(':input:checked').parent('.btnradio').addClass('active');
+	 $('.btnradio').bsFormButtonset('attach'); </script>
+	 </script>
+  
+	<div class="btnradio">
+	
+	
+<div class="panel-group" id="profile">
+  <div class="panel panel-default" id="panel1">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-target="#collapseOne" 
+           href="#collapseOne">
+        <input type="text" class="form-control" placeholder="The merchant is a sole proprietorship owned by the Director">
+	 	<span class="input-group-addon">
+        <input type="checkbox"> </span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+     </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel2">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-target="#collapseTwo" 
+           href="#collapseTwo" class="collapsed">
+         	  <input type="text" class="form-control" placeholder="The merchant is a sole proprietorship not owned by the Director">
+		<span class="input-group-addon">
+        <input type="checkbox"> </span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+    <div tabindex="-1" class="input-group">
+			 <div tabindex="-1" class="row-fluid">
+				<select tabindex="-1" class="selectpicker span12">
+    <option>Select salutation</option>
+    <option>Mr.</option>
+    <option>Mrs.</option>
+  </select>
+<input tabindex="-1" type="text" class="form-control" placeholder="Full name">
+<input tabindex="-1" type="text" class="form-control" placeholder="Social security number">
+<input tabindex="-1" type="text" class="form-control" placeholder="Street address">
+<input type="text" class="form-control" placeholder="Zipcode">
+  <input type="text" class="form-control" placeholder="City">
+   <div class="row-fluid">
+  	<select tabindex="-1" class="selectpicker span12">
+    <option>Select country</option>
+    <option>Denmark</option>
+    <option>Portugal</option>
+  </select></div>
+   <li class="file-inputs" id="profile"> 
+ <p>Passport, drivers license or similar (with picture)</p>   
+					<!-- Change the wording using a title tag -->
+<input type="file" title="Search for a file to add"> 
+<p>We are requried by EU law to ask for this. </p><p>Please upload a passport, drivers license or other official document with a picture</p>
+                    </li> 
+					<li class="file-inputs" id="profile">  
+					<!-- Change the wording using a title tag -->
+					<p>Address legitimation: </p>
+<input type="file" title="Search for a file to add"> 
+<p>We are requried by EU law to ask for this. </p><p>Please upload an offical document, utility bill (i.e. gas or electrical bill)
+</p>
+                    </li>
+  </div></div> </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panel3">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-target="#collapseThree"
+           href="#collapseThree" class="collapsed">
+           <input type="text" class="form-control" placeholder="One ore more owners are holding a direct or indirect share of at least 25%">
+	 	<span class="input-group-addon">
+        <input type="checkbox"> </span>
+        </a>
+	
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+    <div tabindex="-1" class="input-group">
+			 <div tabindex="-1" class="row-fluid">
+				<select tabindex="-1" class="selectpicker span12">
+    <option>Select salutation</option>
+    <option>Mr.</option>
+    <option>Mrs.</option>
+  </select>
+<input tabindex="-1" type="text" class="form-control" placeholder="Full name">
+<input tabindex="-1" type="text" class="form-control" placeholder="Social security number">
+<input tabindex="-1" type="text" class="form-control" placeholder="Street address">
+<input type="text" class="form-control" placeholder="Zipcode">
+  <input type="text" class="form-control" placeholder="City">
+   <div class="row-fluid">
+  	<select tabindex="-1" class="selectpicker span12">
+    <option>Select country</option>
+    <option>Denmark</option>
+    <option>Portugal</option>
+  </select></div>
+   <li class="file-inputs" id="profile"> 
+ <p>Passport, drivers license or similar (with picture)</p>   
+					<!-- Change the wording using a title tag -->
+<input type="file" title="Search for a file to add"> 
+<p>We are requried by EU law to ask for this. </p><p>Please upload a passport, drivers license or other official document with a picture</p>
+                    </li> 
+					<li class="file-inputs" id="profile">  
+					<!-- Change the wording using a title tag -->
+					<p>Address legitimation: </p>
+<input type="file" title="Search for a file to add"> 
+<p>We are requried by EU law to ask for this. </p><p>Please upload an offical document, utility bill (i.e. gas or electrical bill)
+</p>
+                    </li>
+  </div></div> 
+  
+   <a data-toggle="collapse" data-target="#collapse5"
+           href="#collapse5" class="collapsed">
+         <input type="text" class="form-control active" placeholder="add one more person">
+    	<span class="input-group-addon">
+        <input type="checkbox"> </span>
+        </a>
+   <div id="collapse5" class="panel-collapse collapse">
+      <div class="panel-body">
+     Please
+	   <input type="text" class="form-control" placeholder=" Please ">
+	   <div tabindex="-1" class="input-group">
+			 <div tabindex="-1" class="row-fluid">
+				<select tabindex="-1" class="selectpicker span12">
+    <option>Select salutation</option>
+    <option>Mr.</option>
+    <option>Mrs.</option>
+  </select>
+<input tabindex="-1" type="text" class="form-control" placeholder="Full name">
+<input tabindex="-1" type="text" class="form-control" placeholder="Social security number">
+<input tabindex="-1" type="text" class="form-control" placeholder="Street address">
+<input type="text" class="form-control" placeholder="Zipcode">
+  <input type="text" class="form-control" placeholder="City">
+   <div class="row-fluid">
+  	<select tabindex="-1" class="selectpicker span12">
+    <option>Select country</option>
+    <option>Denmark</option>
+    <option>Portugal</option>
+  </select></div>
+   <li class="file-inputs" id="profile"> 
+ <p>Passport, drivers license or similar (with picture)</p>   
+					<!-- Change the wording using a title tag -->
+<input type="file" title="Search for a file to add"> 
+<p>We are requried by EU law to ask for this. </p><p>Please upload a passport, drivers license or other official document with a picture</p>
+                    </li> 
+					<li class="file-inputs" id="profile">  
+					<!-- Change the wording using a title tag -->
+					<p>Address legitimation: </p>
+<input type="file" title="Search for a file to add"> 
+<p>We are requried by EU law to ask for this. </p><p>Please upload an offical document, utility bill (i.e. gas or electrical bill)
+</p>
+                    </li>
+  </div></div>
+	 
+	 </div>
+    </div>
+  </div>
+    </div>
+  </div>
+   <div class="panel panel-default" id="panel4">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-target="#collapse4"
+           href="#collapse4" class="collapsed">
+         <input type="text" class="form-control active" placeholder="None of the owners are holding a direct or indirect share of 25%">
+    	<span class="input-group-addon">
+        <input type="checkbox"> </span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">
+     Please briefly explain the ownership structure
+	   <input type="text" class="form-control" placeholder=" Please briefly explain the ownership structure">
+	 
+	 </div>
+    </div>
+  </div>
+</div>
+	 </div><!-- /input-group -->
+
+	 </div>  </div>  
+  </div></div>
+   <div class="tab-pane" id="Website">
+     <div class="form-group" style="text-align: left;">
+          <div class="page-header"><h1>Website</h1></div>
+		  <div class="row">	
+		 <div class=".col-xs-12 .col-sm-6 .col-lg-8">
+    <p>Why do we ask you about this?</p>
+    <p>Visa and MasterCard requires us to check if your website if compliant with card scheme rules,
+and of course we are interested to learn more about your business :-)
+     Your website must be compliant with VISA & MasterCard rules. Please use this checklist.</p>
+               <script type="text/javascript">  
+        $(document).ready(function () {  
+           $('.buttonset-rv').bsFormButtonset('attach'); 
+        });  
+   </script>
+   Your Website
+                <div tabindex="-1"> <input type="text" class="form-control" placeholder="Your Website"></div>
+				Is your website up and running?
+				<div class="panel-group" id="accordion">
+  <div class="panel panel-default" id="panel1">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-target="#collapseyes" 
+           href="#collapseyes">
+       <span class="input-group-addon">
+        <input type="checkbox"> YES
+      </span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseyes" class="panel-collapse collapse in">
+      <div class="panel-body">
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="panelno">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-target="#collapseno" 
+           href="#collapseno" class="collapsed">
+		    <span class="input-group-addon">
+        <input type="checkbox"> NO
+      </span>
+        
+        </a>
+      </h4>
+    </div>
+    <div id="collapseno" class="panel-collapse collapse">
+      <div class="panel-body">
+     
+        
+  
+      <input type="text" class="form-control" placeholder="Test Url">
+	      <input type="text" class="form-control" placeholder="Test Username">
+	     <input type="text" class="form-control" placeholder="Test Password">
+	  
+	   </div>
+    </div>
+  </div>
+
+</div
+
+    <div class="well buttonset-rv">
+	Your website must be compliant with VISA & MasterCard rules. Please use this checklist.
+	<div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox">
+      </span>
+      <input type="text" class="form-control" placeholder="The customer can easily find contact information and business location">
+	  </div><div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox">
+      </span>
+	  <input type="text" class="form-control" placeholder="The customer can easily find a Disclaimer FAQ">
+	  </div><div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox">
+      </span>
+	  <input type="text" class="form-control" placeholder="There is a clear pricing of every product/service">
+	  </div><div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox">
+      </span>
+	  <input type="text" class="form-control" placeholder="The customer can easily find a Privacy policy">
+	  </div><div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox">
+      </span>
+	  <input type="text" class="form-control" placeholder="The customer can easily find refund and shipping conditions">
+	  </div><div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox">
+      </span>
+	  <input type="text" class="form-control" placeholder="The Visa and MasterCard logo is visible on payment page">
+	  </div><div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox">
+      </span>
+	  <input type="text" class="form-control" placeholder="The customer can easily find customer service e-mail and phone number">
+	  </div><div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox">
+      </span>
+	  <input type="text" class="form-control" placeholder="The customer can easily find “Terms and conditions">
+    </div><!-- /input-group -->
+  </div>
+</div></div></div></div>
+  <div class="tab-pane" id="Business">
+  <div class="form-group" style="text-align: left;">
+          <div class="page-header"><h1>Business model</h1></div>
+         <p>Why do we ask you about this?</p>
+		 <p>We need need to ask you these questions because Visa and MasterCard require us to determine the right MCC code 
+		 for your business and as a part of our continuous anti-fraud effort.</p>
+            <div class="row">
+			 <div class=".col-xs-12 .col-sm-6 .col-lg-8">
+              <div class="input-group"></div>
+  <input type="text" class="form-control" placeholder="Name of Bank"> 
+              Do you physically deliver your product? 
+  <script type="text/javascript">  
+        $(document).ready(function () {  
+           $('.buttonset-rd').bsFormButtonset('attach'); 
+        });  
+   </script>
+				<div class="buttonset-rd" data-toggle="buttons-radio"><input type="radio" name="rd" id="rd1" value="1"><label for="rd1">Yes</label>
+				 <input type="radio" name="rd" id="rd2" value="1"><label for="rd2">No</label></div>
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default" id="panelO">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-target="#collapseO" 
+           href="#collapseO"> <span class="input-group-addon">
+        <input type="checkbox"> 
+      </span>YES
+  
+        </a>
+      </h4>
+    </div>
+    <div id="collapseO" class="panel-collapse collapse in">
+      <div class="panel-body">
+      <label for="d"> If you use track and trace, please specify</label>
+     
+	 <select class="selectpicker">
+    <option>Delivery Delay</option>
+    <option>1 day</option>
+  </select> 
+  <input type="text" id="d" class="form-control" placeholder="UPS, TNT, DHL, etc">  </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="paneln">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-target="#collapsen" 
+           href="#collapsen" class="collapsed">
+     
+		  <span class="input-group-addon">
+        <input type="checkbox"> NO, it's an online service
+      </span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapsen" class="panel-collapse collapse">
+      <div class="panel-body">
+     </div>
+    </div>
+  </div>
+
+</div>       
+
+	   <label for="m"> Expected Monthly Turnover</label>
+     
+	 <select class="selectpicker">
+    <option>EUR</option>
+    <option>DKK</option>
+  </select> 
+  <input type="text" id="m" class="form-control" placeholder="Expected Monthly Turnover">
+   <label for="a"> Expected Average Transaction Amount </label>
+   <select class="selectpicker">
+    <option>EUR</option>
+    <option>DKK</option>
+  </select> 
+  <input type="text" id="a" class="form-control" placeholder="Expected Average Transaction Amount"> 
+               
+            </div>
+          </div>
+   </div></div>
+		    <div class="tab-pane" id="Bank">
+   <div class="form-group" style="text-align: left;">
+            <div class="page-header"><h2>Bank Account</h2></div>
+             <p>Why do we ask you about this?</p>
+             <p>We need to know where to send your money :-)</p>
+             <div class="row">
+			 <div class=".col-xs-12 .col-sm-6 .col-lg-8">
+			
+				<div class="input-group>
+				 <div class="row-fluid">
+				<select class="selectpicker">
+    <option>EUR</option>
+    <option>DKK</option>
+  </select></div>
+  <input type="text" class="form-control" placeholder="Name of Bank"> 
+  <input type="text" class="form-control" placeholder="SWIFT Code">
+  <input type="text" class="form-control" placeholder="IBAN NUmber">
+                </div></div>
+	 </div>
+             </div>
+	 </div>
+   <div id="submit"><button type="submit" class="btn btn-lg">Submit</button>
+	  </form></div>
+	   <h1></h1>
+	  <div class="alert alert-success span5">
+With Clearhaus, you can receive payments in all currencies. If you receive payment in a currency not listed above, it will by default be converted to your primary currency.
+</div>
+ <h1></h1>
+   <div class="alert alert-default span6"><a class="back-to-top" href="#top">Back to top</a></div>
+
+
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+     
+  </div>
+    </div> 
+           
+    </div>
+	 <script type="text/javascript">  
+             $(document).ready(function () {  
+             $('.form-control').attach();  
+             });  
+             </script>
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/holder.js"></script>
+  </body>
+</html>
